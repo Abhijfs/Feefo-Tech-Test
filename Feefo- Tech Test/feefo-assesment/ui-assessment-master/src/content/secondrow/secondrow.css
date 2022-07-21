@@ -1,0 +1,28 @@
+.second-row-container {
+  display: flex;
+}
+
+.left-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-bottom-left-radius: 6px;
+}
+
+.right-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-bottom-right-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .second-row-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  .left-box {
+    border-bottom-left-radius: 0;
+  }
+  .left-box {
+    border-bottom-right-radius: 0;
+  }
+}

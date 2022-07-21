@@ -1,0 +1,47 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.avator {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	background-color: #ffe252;
+	border-radius: 4px;
+}
+
+.support {
+    display: grid;
+	grid-template-rows: auto auto;
+	grid-gap: 4px;
+}
+
+.support-title {
+    text-align: left;
+}
+
+.support-info {
+    display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 16px;
+}
+
+.email {
+    display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 8px;
+}
+
+.email-text {
+	color: #9b9898;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: inherit;
+	font-size: 12px;
+	font-weight: bold;
+}

@@ -1,0 +1,45 @@
+.header {
+    padding-top: 16px;
+	padding-bottom: 40px;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #484446;
+}
+
+@media (max-width: 500px) {
+    .header {
+        display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: auto auto;
+		grid-gap: 20px;
+		padding: 0 16px;
+    }
+}
+
+.overview {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: inherit;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.contact {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-gap: 10px;
+}
+
+.title {
+	color: #9b9898;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: inherit;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
